@@ -5,7 +5,7 @@ import joblib
 model = joblib.load("gradient_boosting_model.pkl")
 
 # Page title
-st.title("Credit Risk Prediction Model")
+st.title("Churn prediction model")
 
 st.write("Gradient Boosting model loaded successfully!")
 
